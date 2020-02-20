@@ -1,0 +1,6 @@
+<ul>
+    <% books.forEach(book => { %>
+        <% if (book['type']=== type){%>
+            <li> <img src="<%= book['imgUrl'] %> " alt="cover" height="50"> <%= book['title']%>  by <%= book['author'] %> </li>
+        <%;}})%>
+</ul>

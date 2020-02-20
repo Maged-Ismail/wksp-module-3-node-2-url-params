@@ -21,6 +21,15 @@ app.get('/question8', q8)
 app.get('/question9', q9)
 app.get('/question10', q10)
 ```
+// to make it DRY:
+
+app.get('/question/:number', (req, res) => {
+    const number = req.params.number;
+
+    exerciseP1[`q${number}]();
+});
+
+
 
 </div><div>
 
