@@ -1,0 +1,31 @@
+
+li {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    border-bottom: 2px solid darkgrey;
+
+
+}
+.box1{
+    min-height: 100px;
+}
+.rank{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 25px;
+}
+.streams{
+    text-align: center;
+    font-size: 10px;
+}
+.title{
+    font-weight: bold;
+    padding-top: 30px;
+}
+.artist{
+    font-style: italic;
+}
+.date{
+    text-align: right;
+}
